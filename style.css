@@ -11,6 +11,9 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  
 }
 
 /* CLEAN CSS-ONLY SNOW — NO IMAGES */
@@ -244,6 +247,7 @@ h1 {
     }
 
 }
+
 
 
 
