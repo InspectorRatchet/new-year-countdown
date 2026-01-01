@@ -5,7 +5,7 @@
 
 /* BACKGROUND + SNOW OVERLAY */
 body {
-    background-image: url(./888936-new-year-desktop-wallpapers-1920x1200-notebook.jpg);
+    background-image: url('888936-new-year-desktop-wallpapers-1920x1200-notebook.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -231,4 +231,5 @@ h1 {
             0 0 120px #ff6600;
         border-color: #ff6600;
     }
+
 }
