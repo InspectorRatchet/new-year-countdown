@@ -15,7 +15,7 @@ html, body {
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-image: url('888936-new-year-desktop-wallpapers-1920x1200-notebook.jpg');
   background-size: cover;
   background-position: center;
@@ -256,6 +256,7 @@ h1 {
     }
 
 }
+
 
 
 
