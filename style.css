@@ -4,7 +4,7 @@
 }
 
 /* BACKGROUND + SNOW OVERLAY */
-html, body {
+body {
   height: 100%;
   margin: 0;
   background-image: url('888936-new-year-desktop-wallpapers-1920x1200-notebook.jpg');
@@ -247,6 +247,7 @@ h1 {
     }
 
 }
+
 
 
 
