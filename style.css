@@ -4,18 +4,14 @@
 }
 
 /* BACKGROUND + SNOW OVERLAY */
-body {
-    background-image: url('888936-new-year-desktop-wallpapers-1920x1200-notebook.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: url('888936-new-year-desktop-wallpapers-1920x1200-notebook.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 /* Snow animation */
 body::before {
     content: "";
@@ -233,3 +229,4 @@ h1 {
     }
 
 }
+
