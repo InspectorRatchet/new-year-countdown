@@ -8,8 +8,8 @@ const containerEl = document.querySelector(".container");
 
 // Build initial target date
 let currentYear = new Date().getFullYear();
-//let newYearDate = new Date(currentYear + 1, 0, 1, 0, 0, 0);
-let newYearDate = new Date(Date.now() + 60000); // 1 minute from now
+let newYearDate = new Date(currentYear + 1, 0, 1, 0, 0, 0);
+//let newYearDate = new Date(Date.now() + 60000); // 1 minute from now
 
 // Update heading dynamically
 headingEl.innerText = `New Year Countdown for ${currentYear + 1}!`;
@@ -62,3 +62,4 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 
 updateCountdown();
+
